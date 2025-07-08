@@ -6,7 +6,7 @@ A simple, TypeScript‑powered Next.js App Router project that displays a virtua
 
 ## 🚀 Setup
 1. **Clone the repo**  
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/dev-srishti/nextjs-ts-assessment.git
    cd your-repo
 
 2. **Install dependencies**
