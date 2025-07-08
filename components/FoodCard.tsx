@@ -28,7 +28,7 @@ export default function FoodCard({ item, onDelete }: Props) {
                     className="rounded object-cover"
                 />
                 <div className="pt-1 space-y-1">
-                    <h2 className="text-xl font-semibold">{item.title}</h2>
+                    <h2 className="text-xl font-semibold text-neutral-950">{item.title}</h2>
                     <p className="text-sm text-gray-600">{item.description}</p>
                     <p className="text-xs text-gray-400">
                         Created: {format(new Date(item.createdAt), "dd MMM yyyy")}
