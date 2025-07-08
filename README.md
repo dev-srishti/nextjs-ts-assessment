@@ -40,10 +40,15 @@ Uses date-fns to display human‑friendly “Created” dates on each card.
 
 🛠 **Tech Stack**
 Next.js 15 (App Router) with TypeScript
+
 React & React Virtualized for efficient list rendering
+
 Tailwind CSS for utility‑first styling
+
 date‑fns for date formatting
+
 LocalStorage for client‑side persistence
+
 Next.js Server Actions (useActionState) for form handling & validation
 
 ⚠️ **Known Limitations**
@@ -55,9 +60,15 @@ Next.js Server Actions (useActionState) for form handling & validation
 
 🚧 **Future Improvements**
 Backend integration: Swap localStorage for a real database or API.
+
 User accounts: Add authentication & per‑user lists.
+
 Image uploads: Allow users to upload images or pick from a gallery.
+
 Advanced validation: Use a form library (e.g. react-hook-form + zod) for richer rules.
+
 UI polish: Add animations, responsive grid layouts, and dark mode.
+
 Accessibility: Improve focus traps in modals, ARIA roles, and keyboard navigation.
+
 Search & Filtering: Let users search by title or filter by date/category.
