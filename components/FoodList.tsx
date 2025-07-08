@@ -84,7 +84,7 @@ export default function FoodList({ initialItems }: Props) {
         </Link>
       </div>
 
-      <div style={{ height: "600px" }}>
+      <div style={{ height: "600px" }} className="pb-10">
         <AutoSizer>
           {({ height, width }) => (
             <List

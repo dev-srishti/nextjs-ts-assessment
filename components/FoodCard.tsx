@@ -18,7 +18,7 @@ interface Props {
 
 export default function FoodCard({ item, onDelete }: Props) {
     return (
-        <div className="flex justify-between items-start gap-4 border rounded-xl bg-white p-4 shadow">
+        <div className="flex justify-between items-start gap-4 border rounded-xl bg-white p-4 shadow h-full">
             <div className="flex gap-4">
                 <Image
                     src={item.image ? `/images/${item.image}` : '/images/logo.png'}
