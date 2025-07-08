@@ -36,10 +36,10 @@ export default function FoodForm({ action: formAction, state: formState, initial
                 <input type="hidden" name="id" value={id} />
             )}
             <div>
-                <label className="block text-sm font-medium">Title</label>
+                <label className="block text-sm font-medium text-neutral-950">Title</label>
                 <input
                     name="title"
-                    className="w-full p-2 border rounded"
+                    className="w-full p-2 border rounded text-neutral-950"
                     defaultValue={initialValues.title}
                     required
                 />
@@ -48,10 +48,10 @@ export default function FoodForm({ action: formAction, state: formState, initial
                 )}
             </div>
             <div>
-                <label className="block text-sm font-medium">Description</label>
+                <label className="block text-sm font-medium text-neutral-950">Description</label>
                 <input
                     name="description"
-                    className="w-full p-2 border rounded"
+                    className="w-full p-2 border rounded text-neutral-950"
                     defaultValue={initialValues.description}
                     required
                 />
