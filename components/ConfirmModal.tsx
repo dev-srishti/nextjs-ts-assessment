@@ -1,5 +1,5 @@
 'use client';
-import { ReactNode, useEffect } from 'react';
+import { useEffect } from 'react';
 import { createPortal } from 'react-dom';
 
 interface ConfirmModalProps {
@@ -9,11 +9,10 @@ interface ConfirmModalProps {
 }
 
 export default function ConfirmModal({ message, onConfirm, onCancel }: ConfirmModalProps) {
-  // Ensure modal renders only on the client
   useEffect(() => {
     document.body.style.overflow = 'hidden'; // prevent scroll
     return () => {
-      document.body.style.overflow = '';
+    document.body.style.overflow = '';
     };
   }, []);
 

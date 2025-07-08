@@ -18,7 +18,6 @@ interface FoodFormProps {
 export default function FoodForm({ action: formAction, state: formState, initialValues, onSuccess }: FoodFormProps) {
     const router = useRouter();
     const id = useParams()?.id as string;
-    const isEditing = id && id !== "new";
 
     useEffect(() => {
         if (formState.success && formState.data && onSuccess) {
